@@ -6,3 +6,7 @@ datasets
 accelerate
 sentencepiece
 safetensors
+ipykernel
+pytest
+lint
+black
