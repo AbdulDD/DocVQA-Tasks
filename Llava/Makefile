@@ -6,3 +6,9 @@ install:
 #install-kernel
 #	python3 -m ipykernel install --user --name llava-env --display-name "Python3 (.venv Llava)"
 
+# Format code
+format:
+	black .
+
+# Run everything
+all: install format

@@ -2,6 +2,7 @@ torch --index-url https://download.pytorch.org/whl/cpu
 torchvision --index-url https://download.pytorch.org/whl/cpu
 bitsandbytes
 transformers
+pytorch-lightning
 datasets
 accelerate
 sentencepiece
