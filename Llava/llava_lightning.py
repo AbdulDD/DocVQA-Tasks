@@ -1,5 +1,6 @@
 # Imports
 import pytorch_lightning as pl
+import torch
 
 class LlavaTraining(pl.LightningModule):
     def __init__(self, config, model, processor):
